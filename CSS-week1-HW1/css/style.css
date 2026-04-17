@@ -17,22 +17,45 @@ header{
 
 nav{
   background-color: rgb(255, 147, 255);
-  color:black;
-  font-size: 125%;
+  font-size: 100%;
+  float: right;
+  clear: both;
+}
+
+li{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  width: 200px;
+  overflow:auto;
+  
+
 }
 
 main{ 
   background-color: rgb(255,147,235);
-  font-size: 125%;
+  font-size: 100%;
   text-align: left;
+  overflow:auto;
+}
+
+h1{
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+p{
+  line-height: 200%;
+  color:rgb(59, 11, 11);
+  text-align: left;
+}
+  
 
 footer{
+  background-color: rgb(255, 147, 255); 
+  font-size: 100%;
+  
 
-  
-}
-    
-}
-  
 
 }
 
