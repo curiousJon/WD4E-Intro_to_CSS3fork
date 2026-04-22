@@ -3,6 +3,22 @@ body{
   font-size: 100%;
   text-align: left;
 
+
+.flex {
+  display:flex; 
+  
+  
+  flex-wrap: wrap;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+
+
+}
+header img {
+  width: 10%;
+  
+
 }
 
 header{
@@ -15,20 +31,69 @@ header{
   
 }
 
+div img {
+  width: 100%;
+  
+}
+
+
+
+  
+
+
+.first {
+display: grid; 
+grid-template-columns: 50% 50%; 
+justify-content: center; 
+align-items:stretch;
+row-gap: 30px; 
+column-gap: 30px;
+
+
+
+
+
+
+  
+
+
+}
+
+
+  
+  
+
+
+
+
+
 nav{
   background-color: rgb(255, 147, 255);
   font-size: 100%;
-  float: right;
-  clear: both;
+  display: inline-block; 
+  width: 80%;
+  float: right; 
+  clear both; 
+  
+  
+  
 }
 
-li{
+/*li{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: block;
   width: 200px;
   overflow:auto;
   
 
+}*/
+
+
+
+
+#skiptomaincontent{
+  background-color: lightpink;
+  text-decoration-thickness: 25%;
 }
 
 main{ 
@@ -36,6 +101,7 @@ main{
   font-size: 100%;
   text-align: left;
   overflow:auto;
+
 }
 
 h1{

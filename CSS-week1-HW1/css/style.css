@@ -5,6 +5,10 @@ body{
 
 }
 
+header img{
+width: 10%;
+}
+
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: rgb(243, 189, 248);
@@ -14,6 +18,7 @@ header{
 
   
 }
+
 
 nav{
   background-color: rgb(255, 147, 255);
